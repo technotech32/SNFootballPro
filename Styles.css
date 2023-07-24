@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #666;
+    color: #fff;
+}
+
+/* Style for the leading team */
+tr:first-child {
+    background-color: #FFD700; /* Use any color you like for the leading team */
+}
+
+/* Style for the bottom two teams */
+tr:nth-last-child(-n+2) {
+    background-color: #FF0000; /* Use any color you like for the bottom two teams */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
